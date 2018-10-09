@@ -22,7 +22,7 @@ The graph gives preliminary support to the notion that BPM and tone are relative
 This is the original dataset, from Kaggle, available [here.](https://www.kaggle.com/caparrini/beatsdataset)
 
 # cluster_anim.py
-I use numpy, pandas, and matplotlib to shape the data and create the video. Run this in your interactive Python terminal and you can replicate the video! *Please note that this requires ffmpeg. I cannot show the audio portion as that was constructed with a professor's proprietary code. By default, this script will play the video rather than save it to your drive. If you would like to do that, change the flag at line 124 to 1. I have optimized the video for playback-- if you want to save a high-definition video like !cluster_anim_sound.avi please also use alternate code at lines 64 and 106.
+I use numpy, pandas, and matplotlib to shape the data and create the video. Run this in your interactive Python terminal and you can replicate the video! *Please note that this requires ffmpeg.* I cannot show the audio portion as that was constructed with a professor's proprietary code. By default, this script will play the video rather than save it to your drive. If you would like to do that, change the flag at line 124 to 1. I have optimized the video for playback-- if you want to save a high-definition video like !cluster_anim_sound.avi please also use alternate code at lines 64 and 106.
 
 # clusterdf.csv
 This is a cleaned data file, for use with the above Python script.
