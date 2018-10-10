@@ -10,7 +10,7 @@ To this end, I've created a video diagram which illustrates the results of a K-m
 
 # But what if we want to look further?
 
-I recall from similar projects that BPM (beats per minute) and pitch-related features were especially important information for supervised learning algorithms. Could it be the case for clustering as well?
+I recall from [similar projects](https://github.com/jmcjr94/Predicting-Music-Genre-with-ML) that BPM (beats per minute) and pitch-related features were especially important information for supervised learning algorithms. Could it be the case for clustering as well?
 
 To find out, I represent tempo and tone with pitch and loudness respectively such that points on the graph with higher BPM play a higher-pitched note, and points with more of a particular note play a louder sound.
 
